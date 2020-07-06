@@ -1,0 +1,52 @@
+.navbar {
+	margin-bottom: 0px !important;
+	padding: 12px !important;
+	background-color: #FFB000!important;
+	border: 0 !important;
+	border-radius: 0 !important;
+}
+
+._navbar-height {
+	min-height: 100px;
+}
+
+.navbar li a, .navbar-brand {
+	font-size: 19px;
+	font-weight: 700;
+	color: black !important;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin: 15px;
+	padding-bottom: 5px;
+}
+
+.navbar li a:hover {
+	border-bottom: 3px solid black;
+	cursor: pointer;
+}
+
+._navbar-link {
+	position: absolute;
+	top: -15%;
+	left: 8%;
+}
+
+._navbar-link img {
+	height: auto; 
+	margin-top: 6px;
+}
+
+@media only screen 
+  and (min-width: 300px) 
+  and (max-width: 768px) { 
+	._navbar-link {
+		position: absolute;
+		top: -9%;
+		left: 8%;
+	}
+	
+	._navbar-link img {
+		height: 55px; 
+		margin-top: 6px;
+	}
+}

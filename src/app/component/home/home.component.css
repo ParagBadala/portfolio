@@ -1,0 +1,165 @@
+.main-frame {
+    background: url(../../../assets/images/background2.jpg) no-repeat center center fixed;
+      background-size: cover;
+      height: 90vh;
+  }
+  
+  .main-info h1 {
+      color: black;
+  }
+  
+  .main-info {
+      margin: 100px auto;
+  }
+
+  .about, .portfolio, .contact {
+	color: black;
+	margin-bottom: 80px;
+}
+
+.about h2, .portfolio h2, .contact h2 {
+	font-weight: 700;
+	font-size: 36px;
+	padding-bottom: 5px;
+	margin: 20px 0px;
+	margin-bottom: 40px;
+}
+
+.underline {
+	border-bottom: 1px solid #ffb000;
+}
+
+.about .row {
+	margin: 20px 0px;
+	box-shadow: 5px 5px 5px 0px rgba(205,200,205,1);
+}
+
+.about .col-md-5 {
+	padding: 0px;
+}
+
+.about img {
+	width: 100%;
+}
+
+.bio {
+	padding: 25px;
+}
+
+.bio p {
+	font-size: 15.5px;
+}
+
+.bio h3 {
+	margin: 0 0 10px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: Open Sans Condensed
+}
+
+.portfolio {
+	margin: 30px 0px;
+	background-color: #ffb000;
+}
+
+.portfolio .row {
+	margin: 35px 0px;
+}
+
+.portfolio .col-md-3 {
+	padding: 15px;
+}
+
+.card {
+	background-color: white;
+	box-shadow: 5px 5px 5px 0px rgba(135,130, 135,1);
+	height: 345px;
+}
+
+.card img {
+	width: 100%;
+}
+
+.card h3 {
+	font-weight: 700;
+	text-align: center;
+}
+
+.card h3, .card p {
+	padding: 10px;
+}
+
+.card:hover {
+	transform: scale(1.1);
+	transition-duration: 0.1s;
+}
+
+button.learn-more {
+	text-decoration: none;
+	border: 0;
+  -webkit-transition: all 0.5s cubic-bezier(0.65, -0.25, 0.25, 1.95);
+  transition: all 0.5s cubic-bezier(0.65, -0.25, 0.25, 1.95);
+  font-weight: 900;
+  color: #202121;
+  padding: 1.25rem 2rem;
+  background: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+button.learn-more:hover, button.learn-more:focus, button.learn-more:active {
+  letter-spacing: 0.125rem;
+}
+
+
+@media only screen and (max-width: 399px) {
+	.main-info h2{
+		font-size: 5vw
+	}
+
+	.portfolio {
+		padding-bottom: 5px;
+	}
+
+	.bio {
+		padding: 3px !important;
+		margin-top: 15px;
+	}
+
+	.card {
+		height: 360px;
+	}
+
+}
+
+@media only screen 
+  and (min-width: 400px) 
+  and (max-width: 768px) { 
+	.main-info h2{
+		font-size: 5vw
+	}
+	.bio {
+		padding: 3px !important;
+		margin-top: 15px;
+	}
+	.card {
+		height: 10%;
+	}
+}
+
+@media only screen 
+  and (min-width: 500px) 
+  and (max-width: 768px) { 
+	.card {
+		height: 10%;
+		width: 50%;
+		display: block;
+  margin-left: auto;
+  margin-right: auto;
+	}
+}
+
+
+
+
+  

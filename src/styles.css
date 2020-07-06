@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  body {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 400;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+ }
