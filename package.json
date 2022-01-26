@@ -19,8 +19,10 @@
     "@angular/platform-browser": "~9.1.11",
     "@angular/platform-browser-dynamic": "~9.1.11",
     "@angular/router": "~9.1.11",
+    "ng-particles": "^2.22.0",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
+    "tsparticles": "^1.39.0",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {

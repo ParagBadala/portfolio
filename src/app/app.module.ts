@@ -7,6 +7,7 @@ import { HomeComponent } from './component/home/home.component';
 import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { ProjectComponent } from './component/project/project.component';
+import {NgParticlesModule} from "ng-particles";
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProjectComponent } from './component/project/project.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgParticlesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

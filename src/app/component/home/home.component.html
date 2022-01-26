@@ -1,5 +1,6 @@
 
 <section class="row jumbotron main-frame">
+    <ng-particles [id]="id" [options]="particlesOptions" (particlesLoaded)="particlesLoaded($event)" (particlesInit)="particlesInit($event)"></ng-particles>
     <div class='main-frame-content text-center'>
         <div class='main-info'>
             <h1><strong>Parag Badala</strong></h1>
